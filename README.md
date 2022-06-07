@@ -5,6 +5,9 @@ Multi-column and JSON-column relationships for Laravel Eloquent using [awobaz/co
 
 In a recent project, I've encountered the need to use both multi-column and JSON-column relationships in the same model. Neither functionality is supported natively by Laravel. Two third-party packages exist that provide these functionalities separately, however, they have several conflicting methods so they can't be used together in the same class. This package combines [awobaz/compoships](https://github.com/topclaudy/compoships) and [staudenmeir/eloquent-json-relations](https://github.com/staudenmeir/eloquent-json-relations) to provide full functionality of both in the same Laravel model.
 
+## Notice
+This is a forked version of the original package sheldonreiff/laravel-advanced-relationships, which was created to work with Laravel 5. I created the dev-master branch here to work with Laravel 8.
+
 ## Installation
 ```
 composer require sheldonreiff/laravel-advanced-relationships
