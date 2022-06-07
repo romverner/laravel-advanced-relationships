@@ -1,13 +1,12 @@
 {
     "name": "romverner/laravel-advanced-relationships",
-    "description": "Multi-column and JSON relationships using awobaz/compoships and staudenmeir/eloquent-json-relations",
+    "description": "Multi-column and JSON relationships using awobaz/compoships and staudenmeir/eloquent-json-relations, updated to work with Laravel 8. Credit goes to sheldonreiff for the original library.",
     "type": "library",
     "license": "MIT",
     "require": {
         "php": "^7.3",
         "awobaz/compoships": "^2.0",
-        "staudenmeir/eloquent-json-relations": "1.5",
-        "sheldonreiff/laravel-advanced-relationships": "dev-master"
+        "staudenmeir/eloquent-json-relations": "1.5"
     },
     "require-dev": {
         "jeroen-g/laravel-packager": "^2.8",
@@ -27,12 +26,6 @@
             ]
         }
     },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/romverner/laravel-advanced-relationships"
-        }
-    ],
     "autoload": {
         "psr-4": {
             "Reiff\\AdvancedRelationships\\": "src"
