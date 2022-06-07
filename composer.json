@@ -1,5 +1,5 @@
 {
-    "name": "sheldonreiff/laravel-advanced-relationships",
+    "name": "romverner/laravel-advanced-relationships",
     "description": "Multi-column and JSON relationships using awobaz/compoships and staudenmeir/eloquent-json-relations",
     "type": "library",
     "license": "MIT",
