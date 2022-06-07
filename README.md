@@ -11,7 +11,7 @@ This is a forked version of the original package sheldonreiff/laravel-advanced-r
 ## Installation
 ```
 If using Laravel 5-7, please use the original package originally created by sheldonreiff:
-    composer require romverner/laravel-advanced-relationships
+    composer require sheldonreiff/laravel-advanced-relationships
 
 If using Laravel 8, please use the updated package:
     composer require romverner/laravel-advanced-relationships:dev-master
